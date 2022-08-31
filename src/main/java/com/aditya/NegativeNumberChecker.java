@@ -6,4 +6,11 @@
 package com.aditya;
 
 public class NegativeNumberChecker {
+
+    // This method will check if the given number is negative or not.
+    public boolean isNegativeNumber(int number) {
+
+        // if number is less than zero return true
+        return number < 0;
+    }
 }
